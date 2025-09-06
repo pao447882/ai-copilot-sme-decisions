@@ -1,0 +1,47 @@
+# === Core data stack ===
+pandas>=2.2,<3
+numpy>=1.26,<2
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+statsmodels>=0.14
+
+# === Time-series & forecasting ===
+prophet==1.1.5
+cmdstanpy>=1.2
+holidays>=0.45
+
+# === Visualization & dashboard ===
+matplotlib>=3.8,<4
+plotly>=5.22,<6
+seaborn>=0.13,<0.14
+streamlit>=1.36
+altair>=5.2
+
+# === Market Basket Analysis ===
+mlxtend>=0.23
+imbalanced-learn>=0.12
+
+# === External data sources ===
+pytrends>=4.9
+googlemaps>=4.10
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# === LLM / Prompting / Utilities ===
+openai>=1.30
+tiktoken>=0.7
+python-dotenv>=1.0
+jinja2>=3.1
+pydantic>=2.5
+rich>=13.7
+typer>=0.12
+
+# === Optional RAG (uncomment if needed) ===
+# sentence-transformers>=2.5
+# chromadb>=0.5
+# faiss-cpu>=1.8
+
+# === Misc ===
+# If you face build issues on Windows with Prophet, install:
+# pip install "prophet==1.1.5" --only-binary=:all:  # or use conda-forge
