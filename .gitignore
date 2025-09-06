@@ -1,0 +1,34 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Environment / Secrets ===
+.env
+.venv/
+venv/
+ENV/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Data (protect sensitive CSV/JSON) ===
+01_sales/*.csv
+02_gpos/*.csv
+03_google_review/*.csv
+06_google_trend/*.csv
+07_AI_analysis/outputs/
+*.json
+
+# === Logs ===
+*.log
+
+# Allow synthetic/sample data
+!data_sample/**
